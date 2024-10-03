@@ -1,0 +1,106 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vimal\\Programming\\Project\\FinancialLibs\\FinancialLibs\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vimal\\Programming\\Project\\FinancialLibs\\FinancialLibs\\tests\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tests\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vimal\\Programming\\Project\\FinancialLibs\\FinancialLibs\\Financial\\walk\\include\\Financial\\walk.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Financial\\walk\\include\\Financial\\walk.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vimal\\Programming\\Project\\FinancialLibs\\FinancialLibs\\Financial\\walk\\src\\walk.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Financial\\walk\\src\\walk.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vimal\\Programming\\Project\\FinancialLibs\\FinancialLibs\\Financial\\rng\\src\\rng.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Financial\\rng\\src\\rng.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vimal\\Programming\\Project\\FinancialLibs\\FinancialLibs\\Financial\\rng\\include\\Financial\\rng.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Financial\\rng\\include\\Financial\\rng.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "rng.hpp",
+              "DocumentMoniker": "C:\\Users\\vimal\\Programming\\Project\\FinancialLibs\\FinancialLibs\\Financial\\rng\\include\\Financial\\rng.hpp",
+              "RelativeDocumentMoniker": "Financial\\rng\\include\\Financial\\rng.hpp",
+              "ToolTip": "C:\\Users\\vimal\\Programming\\Project\\FinancialLibs\\FinancialLibs\\Financial\\rng\\include\\Financial\\rng.hpp",
+              "RelativeToolTip": "Financial\\rng\\include\\Financial\\rng.hpp",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAkwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-03T09:34:08.064Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "rng.cpp",
+              "DocumentMoniker": "C:\\Users\\vimal\\Programming\\Project\\FinancialLibs\\FinancialLibs\\Financial\\rng\\src\\rng.cpp",
+              "RelativeDocumentMoniker": "Financial\\rng\\src\\rng.cpp",
+              "ToolTip": "C:\\Users\\vimal\\Programming\\Project\\FinancialLibs\\FinancialLibs\\Financial\\rng\\src\\rng.cpp",
+              "RelativeToolTip": "Financial\\rng\\src\\rng.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-03T10:13:19.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\vimal\\Programming\\Project\\FinancialLibs\\FinancialLibs\\tests\\main.cpp",
+              "RelativeDocumentMoniker": "tests\\main.cpp",
+              "ToolTip": "C:\\Users\\vimal\\Programming\\Project\\FinancialLibs\\FinancialLibs\\tests\\main.cpp",
+              "RelativeToolTip": "tests\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-03T10:09:14.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "walk.cpp",
+              "DocumentMoniker": "C:\\Users\\vimal\\Programming\\Project\\FinancialLibs\\FinancialLibs\\Financial\\walk\\src\\walk.cpp",
+              "RelativeDocumentMoniker": "Financial\\walk\\src\\walk.cpp",
+              "ToolTip": "C:\\Users\\vimal\\Programming\\Project\\FinancialLibs\\FinancialLibs\\Financial\\walk\\src\\walk.cpp",
+              "RelativeToolTip": "Financial\\walk\\src\\walk.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-03T09:44:23.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "walk.hpp",
+              "DocumentMoniker": "C:\\Users\\vimal\\Programming\\Project\\FinancialLibs\\FinancialLibs\\Financial\\walk\\include\\Financial\\walk.hpp",
+              "RelativeDocumentMoniker": "Financial\\walk\\include\\Financial\\walk.hpp",
+              "ToolTip": "C:\\Users\\vimal\\Programming\\Project\\FinancialLibs\\FinancialLibs\\Financial\\walk\\include\\Financial\\walk.hpp",
+              "RelativeToolTip": "Financial\\walk\\include\\Financial\\walk.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-03T09:44:18.477Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
