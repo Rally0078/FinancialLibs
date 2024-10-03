@@ -11,17 +11,18 @@ endif()
 
 project ("FinancialLibs" VERSION 0.1 DESCRIPTION "Financial Simulation Library written in C++")
 
+set(libsrc Financial/rng/src/rng.cpp Financial/walk/src/walk.cpp)
 add_subdirectory(Financial)
 
 # Add source to this project's executable.
-add_executable(rngtest "./tests/main.cpp" "Financial/walk/src/walk.cpp")
-target_link_libraries(rngtest PUBLIC rng)
-target_link_libraries(rngtest PUBLIC walk)
-add_library(FinancialLibrary INTERFACE)
+add_library(FinancialLibrary STATIC ${libsrc})
+target_link_libraries(FinancialLibrary PUBLIC rng)
+target_link_libraries(FinancialLibrary PUBLIC walk)
+
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET rng PROPERTY CXX_STANDARD 20)
 endif()
 
-# TODO: Add tests and install targets if needed.
-add_test(rngtest "./tests/main.cpp")
+# TODO: Add tests and install targets if needed
+add_subdirectory(tests)

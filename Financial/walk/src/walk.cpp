@@ -32,7 +32,7 @@ namespace finance {
 	}
 
 	GeometricBrownianWalk::GeometricBrownianWalk(double start, double m, double sigma, double dt) :
-		start(start), mean(m), stdev(sigma), current(start), dt(dt), t(0.0), rng(std::make_unique<finance::Normal<double>>(m, sigma)) {
+		start(start), mean(m), stdev(sigma), current(start), dt(dt), t(0.0), rng(std::make_unique<finance::Normal<double>>(0.0, sqrt(dt))) {
 	}
 	double GeometricBrownianWalk::get_first() 
 	{
@@ -41,7 +41,7 @@ namespace finance {
 	double GeometricBrownianWalk::get_next()
 	{
 		t += dt;
-		current *= exp((mean - 0.5 * stdev * stdev) * dt + stdev * sqrt(dt) * rng->get_random());
+		current *= exp((mean - 0.5 * stdev * stdev) * dt + stdev * rng->get_random());
 		return current;
 	}
 };
