@@ -17,8 +17,8 @@ namespace finance {
 		return start;
 	}
 
-	BrownianWalk::BrownianWalk(double start, double mean, double stdev, double dt) : 
-		start(start), current(start), step(0ull), dt(dt), t(0.0), rng(std::make_unique<finance::Normal<double>>(mean, stdev))
+	BrownianWalk::BrownianWalk(double start, double dt) : 
+		start(start), current(start), step(0ull), dt(dt), t(0.0), rng(std::make_unique<finance::Normal<double>>(0.0, sqrt(dt)))
 	{
 	}
 	double BrownianWalk::get_next() {

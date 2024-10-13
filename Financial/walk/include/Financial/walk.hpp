@@ -37,7 +37,7 @@ namespace finance
             double dt;
             double t;
         public:
-            BrownianWalk(double start, double mean, double stdev, double dt);
+            BrownianWalk(double start, double dt);
             double get_next();
             double get_first();
     };
